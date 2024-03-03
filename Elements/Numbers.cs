@@ -18,8 +18,9 @@ internal class Number
         static FuncContext toString(List<Script.Elements.ParameterValue> values)
         {
 
-            var cadena = values.LastOrDefault(t => t.Name == "value")!.Value ?? "";
-            cadena = cadena?.ToString()?.Trim() ?? "";
+            var cadena = values.LastOrDefault(t => t.Name == "value");
+
+           var final = cadena?.Objeto.Value.ToString()?.Trim() ?? "";
 
             return new FuncContext()
             {
@@ -28,7 +29,7 @@ internal class Number
                 Value = new SILFStringObject()
                 {
                     Tipo = new("string"),
-                    Value = cadena
+                    Value = final
                 }
             };
         }

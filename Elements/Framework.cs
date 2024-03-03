@@ -43,7 +43,7 @@ internal class Framework
                 Value = new SILFStringObject()
                 {
                     Tipo = new("string"),
-                    Value = $"<{value?.Tipo.Description ?? "non type"}>",
+                    Value = $"<{value.Objeto?.Tipo.Description ?? "non type"}>",
                 }
             };
         }
