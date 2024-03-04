@@ -1,7 +1,6 @@
 ﻿using SILF.Script.Elements.Functions;
 using SILF.Script.Interfaces;
 using SILF.Script.Objects;
-using System.ComponentModel.DataAnnotations;
 
 namespace SILF.Framework.Elements;
 
