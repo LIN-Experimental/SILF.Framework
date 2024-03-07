@@ -67,8 +67,8 @@ internal class List
                 Name = "get",
                 Parameters =
                 [
-                    new("value", new("array")),
-                    new("id", new("number")),
+                    new("value", new("array"), true),
+                    new("id", new("number"))
                 ]
             },
 
@@ -77,8 +77,8 @@ internal class List
                 Name = "add",
                 Parameters =
                 [
-                    new("value", new("array")),
-                    new("object", new("mutable")),
+                    new("value", new("array"), true),
+                    new("object", new("mutable"))
                 ]
             },
         ];

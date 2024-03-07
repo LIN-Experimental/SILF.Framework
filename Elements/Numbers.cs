@@ -44,7 +44,7 @@ internal class Number
                 Type = new("string"),
                 Parameters =
                 [
-                    new("value", new("number"))
+                    new("value", new("number"), true)
                 ]
             }
         ];

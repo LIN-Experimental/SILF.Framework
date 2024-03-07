@@ -101,7 +101,7 @@ internal class String
                 Type = new("string"),
                 Parameters =
                 [
-                    new("value", new("string"))
+                    new("value", new("string"), true)
                 ]
             },
             new(upper)
@@ -110,7 +110,7 @@ internal class String
                 Type = new("string"),
                 Parameters =
                 [
-                    new("value", new("string"))
+                    new("value", new("string"), true)
                 ]
             },
             new(lower)
@@ -119,7 +119,7 @@ internal class String
                 Type = new("string"),
                 Parameters =
                 [
-                    new("value", new("string"))
+                    new("value", new("string"), true)
                 ]
             },
             new(toNumber)
@@ -128,7 +128,7 @@ internal class String
                 Type = new("number"),
                 Parameters =
                 [
-                    new("value", new("string"))
+                    new("value", new("string"), true)
                 ]
             }
         ];
