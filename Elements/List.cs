@@ -31,7 +31,7 @@ internal class List
             {
                 WaitType = @base?.Tipo,
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = @base?.Tipo ?? new("mutable"),
                     Value = @base?.GetValue()
@@ -110,7 +110,7 @@ internal class List
             {
                 WaitType = new("number"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("number"),
                     Value = count

@@ -26,7 +26,7 @@ internal class Number
             {
                 WaitType = new("string"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("string"),
                     Value = final

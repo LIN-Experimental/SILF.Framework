@@ -21,7 +21,7 @@ internal class Framework
             {
                 WaitType = new("string"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("string"),
                     Value = "SILF Framework for .NET"
@@ -30,7 +30,7 @@ internal class Framework
         }
 
 
-        // Type.
+        // Tipo.
         static FuncContext type(List<Script.Elements.ParameterValue> values)
         {
 
@@ -40,7 +40,7 @@ internal class Framework
             {
                 WaitType = new("string"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("string"),
                     Value = $"<{value.Objeto?.Tipo.Description ?? "non type"}>",

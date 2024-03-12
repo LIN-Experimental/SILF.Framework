@@ -25,7 +25,7 @@ internal class String
             {
                 WaitType = new("string"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("string"),
                     Value = final
@@ -44,7 +44,7 @@ internal class String
             {
                 WaitType = new("string"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("string"),
                     Value = final
@@ -63,7 +63,7 @@ internal class String
             {
                 WaitType = new("string"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("string"),
                     Value = final
@@ -83,7 +83,7 @@ internal class String
             {
                 WaitType = new("number"),
                 IsReturning = true,
-                Value = new SILFNumberObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("number"),
                     Value = value
@@ -156,7 +156,7 @@ internal class String
             {
                 WaitType = new("number"),
                 IsReturning = true,
-                Value = new SILFStringObject()
+                Value = new SILFClassObject()
                 {
                     Tipo = new("number"),
                     Value = count
