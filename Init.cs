@@ -1,6 +1,5 @@
 ﻿namespace SILF.Framework;
 
-
 public static class Init
 {
 
@@ -21,12 +20,8 @@ public static class Init
         app.Library.Load("array", Elements.List.Load().ToList());
         app.Library.Load("array", Elements.List.LoadProperties().ToList());
 
-
         // Framework.
         app.AddDefaultFunctions(Elements.Framework.Load());
-
-
     }
-
 
 }
